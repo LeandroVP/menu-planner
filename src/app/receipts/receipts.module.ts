@@ -2,19 +2,18 @@ import { IonicModule } from '@ionic/angular';
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { FormsModule } from '@angular/forms';
-import { Tab2Page } from './tab2.page';
+import { ReceiptsPage } from './receipts.page';
 import { ExploreContainerComponentModule } from '../explore-container/explore-container.module';
 
-import { Tab2PageRoutingModule } from './tab2-routing.module';
+import { ReceiptsPageRoutingModule } from './receipts-routing.module';
+import { SharedModule } from '../shared/shared.module';
 
 @NgModule({
   imports: [
-    IonicModule,
-    CommonModule,
-    FormsModule,
+    SharedModule,
     ExploreContainerComponentModule,
-    Tab2PageRoutingModule
+    ReceiptsPageRoutingModule,
   ],
-  declarations: [Tab2Page]
+  declarations: [ReceiptsPage],
 })
-export class Tab2PageModule {}
+export class ReceiptsPageModule {}

@@ -8,29 +8,38 @@ const routes: Routes = [
     component: TabsPage,
     children: [
       {
-        path: 'tab1',
-        loadChildren: () => import('../tab1/tab1.module').then(m => m.Tab1PageModule)
+        path: 'weekly-menu',
+        loadChildren: () =>
+          import('../weekly-menu/weekly-menu.module').then(
+            (m) => m.WeeklyMenuPageModule
+          ),
       },
       {
-        path: 'tab2',
-        loadChildren: () => import('../tab2/tab2.module').then(m => m.Tab2PageModule)
+        path: 'shopping-list',
+        loadChildren: () =>
+          import('../shopping-list/shopping-list.module').then(
+            (m) => m.ShoppingLlistPageModule
+          ),
       },
       {
-        path: 'tab3',
-        loadChildren: () => import('../tab3/tab3.module').then(m => m.Tab3PageModule)
+        path: 'receipts',
+        loadChildren: () =>
+          import('../receipts/receipts.module').then(
+            (m) => m.ReceiptsPageModule
+          ),
       },
       {
         path: '',
-        redirectTo: '/tabs/tab1',
-        pathMatch: 'full'
-      }
-    ]
+        redirectTo: '/tabs/weekly-menu',
+        pathMatch: 'full',
+      },
+    ],
   },
   {
     path: '',
-    redirectTo: '/tabs/tab1',
-    pathMatch: 'full'
-  }
+    redirectTo: '/tabs/weekly-menu',
+    pathMatch: 'full',
+  },
 ];
 
 @NgModule({
