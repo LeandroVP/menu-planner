@@ -1,0 +1,8 @@
+{
+  "name": "menu-planner",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular",
+  "id": "62d1031f"
+}
