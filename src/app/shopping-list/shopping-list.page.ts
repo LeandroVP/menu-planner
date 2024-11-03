@@ -1,10 +1,15 @@
-import { Component } from '@angular/core';
+import {Component} from '@angular/core';
+import {Item} from '../shared/models/item.model';
 
 @Component({
-  selector: 'app-shopping-list',
-  templateUrl: 'shopping-list.page.html',
-  styleUrls: ['shopping-list.page.scss'],
+	selector: 'app-shopping-list',
+	templateUrl: 'shopping-list.page.html',
+	styleUrls: ['shopping-list.page.scss']
 })
 export class ShoppingLlistPage {
-  constructor() {}
+	constructor() {}
+
+	onAddItem(item: Item) {
+		console.log(item);
+	}
 }
