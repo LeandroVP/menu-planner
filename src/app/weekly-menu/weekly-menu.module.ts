@@ -1,9 +1,9 @@
-import { IonicModule } from '@ionic/angular';
-import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
+import { NgModule } from '@angular/core';
 import { FormsModule } from '@angular/forms';
-import { WeeklyMenuPage } from './weekly-menu.page';
+import { IonicModule } from '@ionic/angular';
 import { ExploreContainerComponentModule } from '../explore-container/explore-container.module';
+import { WeeklyMenuPage } from './weekly-menu.page';
 
 import { WeeklyMenuPageRoutingModule } from './weekly-menu-routing.module';
 

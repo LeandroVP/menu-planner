@@ -1,5 +1,11 @@
 {
-  "section.receipts": "Recetas",
-  "section.weeklyMenu": "Menú de la semana",
-  "section.shoppingList": "Lista de la compra"
+	"section.receipts": "Recetas",
+	"section.weeklyMenu": "Menú de la semana",
+	"section.shoppingList": "Lista de la compra",
+	"form.item.name": "Nombre",
+	"form.item.isIngredient": "Ingrediente",
+	"form.item.tag": "Añade etiqueta",
+	"form.item.createItem": "Crear un nuevo item",
+	"form.item.noTags": "Ninguna etiqueta por ahora...",
+	"form.item.save": "Guardar"
 }
