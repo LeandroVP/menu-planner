@@ -1,6 +1,5 @@
 export interface Item {
-	id: string;
+	unit: string;
 	name: string;
-	tags: string[];
-	recipeId?: string;
+	amount: number;
 }

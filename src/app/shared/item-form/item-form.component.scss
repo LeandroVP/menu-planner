@@ -1,33 +1,10 @@
-form {
-	height: 100%;
-	display: flex;
-	flex-direction: column;
-	justify-content: space-between;
+ion-grid,
+ion-row,
+ion-col {
+	padding: 0;
+	text-align: end;
+}
 
-	ion-item,
-	ion-list {
-		--padding-start: 0;
-		background: none;
-		--background: none;
-	}
-
-	.add-button {
-		min-width: unset;
-		min-height: unset;
-		--padding-top: 0;
-		--padding-bottom: 0;
-		--padding-start: 0;
-		--padding-end: 0;
-	}
-
-	p {
-		text-align: center;
-	}
-
-	ion-chip ion-label {
-		max-width: 150px;
-		overflow: hidden;
-		white-space: nowrap;
-		text-overflow: ellipsis;
-	}
+ion-input {
+	padding-right: 0;
 }
