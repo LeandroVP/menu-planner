@@ -1,11 +1,14 @@
 {
+	"amount.unit": "Pcs",
+	"amount.kilo": "Kg",
+	"amount.gram": "Gr",
+	"amount.liter": "L",
+	"action.continue": "Continue",
+	"action.select": "Select",
+	"action.cancel": "Cancel",
 	"section.receipts": "Receipts",
 	"section.weeklyMenu": "Menu of the week",
 	"section.shoppingList": "Shopping list",
-	"form.item.name": "Name",
-	"form.item.isIngredient": "Ingredient",
-	"form.item.tag": "Add tag",
-	"form.item.createItem": "Create a new item",
-	"form.item.noTags": "No tags...",
-	"form.item.save": "Save"
+	"item.name": "Name",
+	"item.amount": "Amount"
 }

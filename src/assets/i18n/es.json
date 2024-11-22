@@ -1,11 +1,14 @@
 {
+	"amount.unit": "Ud",
+	"amount.kilo": "Kg",
+	"amount.gram": "Gr",
+	"amount.liter": "L",
+	"action.continue": "Continuar",
+	"action.select": "Seleccionar",
+	"action.cancel": "Cancelar",
 	"section.receipts": "Recetas",
 	"section.weeklyMenu": "Menú de la semana",
 	"section.shoppingList": "Lista de la compra",
-	"form.item.name": "Nombre",
-	"form.item.isIngredient": "Ingrediente",
-	"form.item.tag": "Añade etiqueta",
-	"form.item.createItem": "Crear un nuevo item",
-	"form.item.noTags": "Ninguna etiqueta por ahora...",
-	"form.item.save": "Guardar"
+	"item.name": "Nombre",
+	"item.amount": "Cantidad"
 }
