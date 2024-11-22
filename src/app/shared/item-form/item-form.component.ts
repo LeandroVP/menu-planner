@@ -14,7 +14,7 @@ export class ItemFormComponent implements OnInit {
 	}
 
 	form = this.fb.group({
-		unit: this.translateService.instant('amount.unit'),
+		unit: this.translateService.instant('amount.unit') as string,
 		name: ['', Validators.required],
 		amount: [1, [Validators.min(0), Validators.required]]
 	});
@@ -30,6 +30,7 @@ export class ItemFormComponent implements OnInit {
 	}
 
 	confirm() {
-		console.log(this.form.getRawValue());
+		this.newItemEvent.emit(this.form.getRawValue());
+		this.form.reset();
 	}
 }
